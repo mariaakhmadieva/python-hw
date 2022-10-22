@@ -27,6 +27,3 @@ def find_binary(num):
     return bin_num
 
 print(find_binary(int(input("Enter decimal number: "))))
-
-### здесь тоже название у функции было из двух слов, но, как и во втором задании, второе слово постоянно 
-# подчёркивалось с ошибкой "моё название" is not defined
