@@ -12,10 +12,9 @@
 # [2, 2, 4, 8, 8]
 # [16, 16, 4]
 
-from ast import Mult
 from random import sample
 
-def find_mult(count, mult):
+def find_mult(count):
     
     if count < 0:
         print("Negative value of the number of numbers!")
@@ -39,7 +38,4 @@ def find_mult(count, mult):
 
     return mult
 
-print(find_mult(int(input("Number of numbers: ")), Mult))
-
-### Можете, пожалуйста, подсказать, тут Я сделала from ast import Mult, потому что ни одно моё название не подходило, 
-# всё время выходит подчёркивание с ошибкой "моё название" is not defined
+print(find_mult(int(input("Number of numbers: "))))
