@@ -1,7 +1,7 @@
 from bot_keyboard import *
 import telebot
 
-bot = telebot.TeleBot('5954361935:AAGLRz2HeCo4OFS3SkDlV0Sddr6B0GMfJkU')
+bot = telebot.TeleBot('TOKEN')
 
 value = ''
 old_value = ''
