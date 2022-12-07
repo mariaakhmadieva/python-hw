@@ -1,5 +1,17 @@
 from bot_keyboard import *
 import telebot
+import os
+import logging
+
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO,
+    filename='log_book'
+)
+
+load_dotenv()
+secret_token = os.getenv('TOKEN')
+bot = TeleBot(secret_token)
 
 bot = telebot.TeleBot('TOKEN')
 
